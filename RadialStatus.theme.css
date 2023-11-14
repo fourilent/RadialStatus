@@ -1,22 +1,22 @@
 /**
  * @name RadialStatus
- * @author Gibbu#1211
+ * @author Gibbu#1211 & fourilent
  * @version 2.0.0
- * @description Changes the status icons to wrap around the avatar. Shape can be changed inside the theme file.
- * @source https://github.com/DiscordStyles/RadialStatus
+ * @description Changes the status icons to wrap around the avatar. Shape can be changed inside the theme file. (Customised)
+ * @source https://github.com/fourilent/RadialStatus/blob/custom/RadialStatus.theme.css
  * @invite ZHthyCw
  * @website https://www.gibbu.me
 */
 
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://raw.githubusercontent.com/fourilent/RadialStatus/custom/dist/RadialStatus-minified.css');
 
 :root {
   /*
     * Spacing
     */
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-spacing: 0px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 0px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 0px; /* Gap between avatar and status for User profiles | MUST end in px */
   /*
     * Widths
     */
@@ -30,11 +30,11 @@
   /*
     * Colours
     */
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-online-color: #a9dc76; /* Colour for online status */
+  --rs-idle-color: #ffd866; /* Colour for idle status */
+  --rs-dnd-color: #ff6188; /* Colour for dnd status */
   --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-streaming-color: #ab9df2; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
   --rs-self-speaking-color: #57d39b; /* Colour for speaking ring in the bottom left while in a voice chat/call */
   --rs-phone-color: var(
